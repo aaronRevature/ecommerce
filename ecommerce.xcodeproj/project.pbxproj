@@ -14,6 +14,10 @@
 		847F7F6E286A4C30006E87AB /* ecommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847F7F6C286A4C30006E87AB /* ecommerce.xcdatamodeld */; };
 		847F7F70286A4C31006E87AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847F7F6F286A4C31006E87AB /* Assets.xcassets */; };
 		847F7F73286A4C31006E87AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F7F71286A4C31006E87AB /* LaunchScreen.storyboard */; };
+		AEAE265C286C8701005009BB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE265B286C8701005009BB /* RegisterViewController.swift */; };
+		AEAE26DF286CE4F1005009BB /* ModelLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE26DE286CE4F1005009BB /* ModelLogin.swift */; };
+		AEAE26E1286D11E8005009BB /* welcome-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAE26E0286D11E8005009BB /* welcome-1.png */; };
+		AEAE26E3286D2785005009BB /* Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAE26E2286D2784005009BB /* Welcome.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		847F7F6F286A4C31006E87AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847F7F72286A4C31006E87AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847F7F74286A4C31006E87AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAE265B286C8701005009BB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AEAE26DE286CE4F1005009BB /* ModelLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLogin.swift; sourceTree = "<group>"; };
+		AEAE26E0286D11E8005009BB /* welcome-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1.png"; sourceTree = "<group>"; };
+		AEAE26E2286D2784005009BB /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				847F7F63286A4C30006E87AB /* AppDelegate.swift */,
+				AEAE265B286C8701005009BB /* RegisterViewController.swift */,
 				847F7F65286A4C30006E87AB /* SceneDelegate.swift */,
 				847F7F67286A4C30006E87AB /* ViewController.swift */,
+				AEAE26DE286CE4F1005009BB /* ModelLogin.swift */,
 				847F7F69286A4C30006E87AB /* Main.storyboard */,
+				AEAE26E2286D2784005009BB /* Welcome.png */,
 				847F7F6F286A4C31006E87AB /* Assets.xcassets */,
+				AEAE26E0286D11E8005009BB /* welcome-1.png */,
 				847F7F71286A4C31006E87AB /* LaunchScreen.storyboard */,
 				847F7F74286A4C31006E87AB /* Info.plist */,
 				847F7F6C286A4C30006E87AB /* ecommerce.xcdatamodeld */,
@@ -130,6 +142,8 @@
 			files = (
 				847F7F73286A4C31006E87AB /* LaunchScreen.storyboard in Resources */,
 				847F7F70286A4C31006E87AB /* Assets.xcassets in Resources */,
+				AEAE26E3286D2785005009BB /* Welcome.png in Resources */,
+				AEAE26E1286D11E8005009BB /* welcome-1.png in Resources */,
 				847F7F6B286A4C30006E87AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				847F7F68286A4C30006E87AB /* ViewController.swift in Sources */,
+				AEAE26DF286CE4F1005009BB /* ModelLogin.swift in Sources */,
+				AEAE265C286C8701005009BB /* RegisterViewController.swift in Sources */,
 				847F7F64286A4C30006E87AB /* AppDelegate.swift in Sources */,
 				847F7F6E286A4C30006E87AB /* ecommerce.xcdatamodeld in Sources */,
 				847F7F66286A4C30006E87AB /* SceneDelegate.swift in Sources */,
